@@ -1,0 +1,138 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+.button {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: dimgray;
+}
+
+.container {
+  margin: 0;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 37.5em 37em 1fr;
+  grid-template-rows: 55px 1fr;
+  color: white;
+  gap: 1px;
+}
+
+.header-esquerdo {
+  display: grid;
+  background-color: black;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  text-align: start;
+  justify-items: center;
+}
+
+.menu-lateral {
+  display: grid;
+  grid-template-rows: repeat(14, 4px);
+  grid-template-columns: 1fr;
+  margin-left: 15em;
+}
+
+nav {
+  display: grid;
+  grid-template-rows: 55px 1fr 1fr 1fr 1fr;
+}
+
+.menu1 {
+  list-style-type: none;
+  transition: 0.2s;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+#postar {
+  text-align: center;
+  padding-left: 2vh;
+  margin-top: 3vh;
+  background-color: #1d9bf0;
+  height: 5.4vh;
+  transition: 0.3s;
+  width: 90%;
+}
+
+#conta {
+  height: 6.5vh;
+  margin-top: 2.6vh;
+}
+
+#postar:hover {
+  background-color: #1a8cd8;
+}
+
+.menu1 li {
+  font-weight: bold;
+  align-content: center;
+  margin-top: 1.2vh;
+  margin-left: 4vh;
+  padding-left: 17px;
+  padding-right: 20px;
+  width: max-content;
+  height: 5vh;
+  transition: 0.4s;
+  border-radius: 40px 40px;
+}
+
+.menu1 li:hover {
+  background-color: #181818;
+  border-radius: 40px 40px;
+  cursor: pointer;
+}
+
+.main-centro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: black;
+}
+
+.bunda {
+  text-align: center;
+  align-content: center;
+  transition: 0.2s;
+}
+
+.bunda:hover {
+  background-color: #181818;
+  cursor: pointer;
+}
+
+.aside-esquerdo {
+  display: grid;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: black;
+}
+
+#busca {
+  border: none;
+  margin: 5px;
+  height: 4.5vh;
+  margin-left: 30px;
+  border-radius: 50px;
+  width: 45%;
+  background-color: #181818;
+  align-content: center;
+}
+
+footer {
+  display: grid;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: black;
+}
+
+#conteudo {
+  background-color: aquamarine;
+}
