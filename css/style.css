@@ -100,8 +100,15 @@ body {
   flex-direction: row;
 }
 
-.conteudo-foto-perfil img {
+.conteudo-foto-perfil {
+  display: flex;
+  position: relative;
+  flex-direction: column;
   margin-left: -55px;
+  width: 40px;
+}
+
+.conteudo-foto-perfil img {
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -110,6 +117,7 @@ body {
 .conteudo-cabecalho h1 {
   font-size: 15px;
   font-weight: bolder;
+  margin-left: 10px;
 }
 .conteudo-cabecalho h2 {
   font-size: 15px;
@@ -121,12 +129,14 @@ body {
   margin-left: 5px;
   color: #71767b;
 }
-.conteudo-cabecalho p {
-  display: block;
+.conteudo-texto p {
   font-size: 15px;
+  margin-left: -5px;
+  margin-top: -20px;
 }
 
 .conteudo-post img {
+  margin-left: -5px;
   max-width: 516px;
   max-height: 516px;
   border-radius: 15px;
@@ -155,4 +165,18 @@ body {
 
 .aside-direito {
   border-left: 1px solid #2f3336;
+  padding-left: 15px;
+}
+
+.aside-premium {
+  padding: 12px 16px 12px 16px;
+}
+
+.aside-premium h1 {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.aside-premium h3 {
+  font-size: 15px;
 }
