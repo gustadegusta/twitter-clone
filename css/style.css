@@ -25,6 +25,7 @@ body {
 .logox {
   font-size: 34px;
   font-weight: bold;
+  margin-left: 15px;
 }
 
 .menu-navegacao {
@@ -32,8 +33,13 @@ body {
   padding-left: 0;
 }
 .iten-menu {
-  padding: 12px 0 12px 0;
+  padding: 12px 20px;
   margin: 5px 0px;
+  transition: 0.2s;
+  border-radius: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 3.5em;
 }
 
 .iten-menu i {
@@ -45,7 +51,10 @@ body {
   margin-right: 10px;
   font-weight: normal;
   font-size: 20px;
-  text-overflow: clip;
+}
+
+.iten-menu:hover {
+  background-color: #181818;
 }
 
 #postar-btn {
@@ -151,6 +160,7 @@ body {
 .conteudo-cabecalho h1 {
   font-size: 15px;
   font-weight: bolder;
+  margin-right: 5px;
 }
 .conteudo-cabecalho h2 {
   font-size: 15px;
@@ -268,7 +278,7 @@ body {
   background-color: #202327;
   padding: 10px 50px;
   margin-top: 5px;
-  width: 300px;
+  width: 350px;
   font-size: 15px;
 }
 
@@ -295,4 +305,16 @@ body {
   font-size: 20px;
   margin-bottom: 25px;
   font-weight: 800;
+}
+
+.aside-termos {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.aside-termos div {
+  margin-right: 10px;
 }
