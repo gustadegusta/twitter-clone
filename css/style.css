@@ -23,9 +23,17 @@ body {
 }
 
 .logox {
-  font-size: 34px;
-  font-weight: bold;
-  margin-left: 15px;
+  width: 16%;
+  font-size: 28px;
+  padding-top: 4px;
+  border-radius: 100%;
+  margin-left: 10px;
+  padding-left: 9px;
+  transition: 0.2s;
+}
+
+.logox:hover {
+  background-color: #181818;
 }
 
 .menu-navegacao {
@@ -37,7 +45,6 @@ body {
   margin: 5px 0px;
   transition: 0.2s;
   border-radius: 50px;
-  width: 100%;
   box-sizing: border-box;
   height: 3.5em;
 }
@@ -52,8 +59,12 @@ body {
   font-weight: normal;
   font-size: 20px;
 }
+.menu-navegacao li {
+  width: fit-content;
+}
 
-.iten-menu:hover {
+.menu-navegacao li:hover {
+  width: fit-content;
   background-color: #181818;
 }
 
@@ -65,6 +76,12 @@ body {
   width: 80%;
   border-radius: 2em;
   font-weight: bolder;
+  transition: 0.2s;
+  margin-left: px;
+}
+
+#postar-btn:hover {
+  background-color: #1b8cd9;
 }
 
 .iten-menu i {
@@ -73,8 +90,14 @@ body {
 
 .aside-esquerdo-perfil {
   display: flex;
-  padding: 10px 0;
+  padding: 10px 20px;
   margin: 40px 0;
+  transition: 0.2s;
+  border-radius: 50px;
+}
+
+.aside-esquerdo-perfil:hover {
+  background-color: #181818;
 }
 
 .aside-esquerdo-foto img {
@@ -251,6 +274,11 @@ body {
   margin-bottom: 15px;
 }
 
+.aside-trend:hover {
+  background-color: #181818;
+  padding: 0 0 0 0;
+}
+
 .aside-trend-ponto i {
   color: rgb(113 118 123);
   cursor: pointer;
@@ -280,6 +308,7 @@ body {
   margin-top: 5px;
   width: 350px;
   font-size: 15px;
+  cursor: text;
 }
 
 .busca:focus,
